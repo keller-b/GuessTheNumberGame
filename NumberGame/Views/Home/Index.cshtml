@@ -1,0 +1,25 @@
+﻿
+
+<head>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/NumberGame.js")
+
+</head>
+
+
+
+
+<div class="jumbotron">
+    <h1>Guess a number</h1>
+    <p class="lead">This is a single page number guessing game.</p>
+    
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Guess a number 1-100</h2>
+
+        <input id="guessForm" class="form-control" type="text" name="guessNumber" placeholder="Enter a guess" />
+
+        <input type="submit" value="Submit Data" id="btnSubmit" />
+    </div>
